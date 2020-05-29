@@ -7,3 +7,8 @@ from django.contrib.auth.decorators import login_required
 def welcome(request):
     
     return render(request,'fold/welcome.html')
+
+
+def profile(request):
+    
+    return render(request,'fold/profile.html')
