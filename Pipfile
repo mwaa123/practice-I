@@ -8,6 +8,8 @@ verify_ssl = true
 [packages]
 flask = "==0.12.1"
 numpy = "*"
+django = "==1.11"
+django-bootstrap3 = "*"
 
 [requires]
 python_version = "2.7"
