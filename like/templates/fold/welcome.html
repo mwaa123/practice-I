@@ -1,1 +1,12 @@
-<h1>thre</h1>
+{%extends 'fold/base.html'%}
+{% load bootstrap3 %}
+{% load static%}
+{% block content %}
+{{block.super}}
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Open+Sans&display=swap" rel="stylesheet"> 
+{% block styles %}
+{% bootstrap_css %}
+<link rel="stylesheet" href="{% static 'css/index.css' %}">
+{% endblock %}
+<h1>how are></h1>
+{% endblock %}
