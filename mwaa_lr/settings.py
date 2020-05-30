@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     'like.apps.LikeConfig',
     'users.apps.UsersConfig',
     'bootstrap3',
+    'crispy_forms',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
